@@ -28,7 +28,7 @@ a {
     color: white;
     text-decoration: none;
     margin-left: 70px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 /*MAIN*/
@@ -37,10 +37,40 @@ a {
 .imagen-portada {
     width: 100%;
     height: 830px;
+    position: relative;
+    z-index: 0;
     margin-left: 0px;
     margin-top: 0px;
 }
 
 .contenedor-portada {
-    
+    width: 700px;
+    height: 350px;
+    background-color: rgba(0, 0, 0, 0.801);
+    position: absolute; 
+    top: 300px;
+    z-index: 1;
+    color: white; 
+    padding: 20px;
+     border-radius: 6px;
 }
+
+h1 {
+    font-size: 70px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.boton-portada {
+    width: 160px;
+    height: 50px;
+    margin-top: 70px;
+    margin-left: 230px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    border: 1px solid white;
+    border-radius: 6px;
+}
+
+/*SECTION2*/
