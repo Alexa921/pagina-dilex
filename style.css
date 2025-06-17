@@ -8,27 +8,27 @@
 
 nav {
     width: 100%;
-    height: 90px;
+    height: 70px;
     background-color: black;
 }
 
 img {
-    width: 60px;
-    height: 55px;
+    width: 95px;
+    height: 80px;
     margin-left: 200px;
-    margin-top: 17px;
+    margin-top: -5px;
 }
 
 div {
     margin-left: 580px;
-    margin-top: -40px;
+    margin-top: -55px;
 }
 
 a {
     color: white;
     text-decoration: none;
     margin-left: 70px;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 /*MAIN*/
@@ -36,7 +36,7 @@ a {
 
 .imagen-portada {
     width: 100%;
-    height: 830px;
+    height: 851px;
     position: relative;
     z-index: 0;
     margin-left: 0px;
@@ -48,11 +48,10 @@ a {
     height: 350px;
     background-color: rgba(0, 0, 0, 0.801);
     position: absolute; 
-    top: 300px;
+    top: 370px;
     z-index: 1;
     color: white; 
     padding: 20px;
-     border-radius: 6px;
 }
 
 h1 {
@@ -65,12 +64,74 @@ h1 {
     width: 160px;
     height: 50px;
     margin-top: 70px;
-    margin-left: 230px;
+    margin-left: 240px;
     background-color: black;
     color: white;
-    font-size: 18px;
+    font-size: 15px;
     border: 1px solid white;
-    border-radius: 6px;
 }
 
 /*SECTION2*/
+/*Titulo section 2*/
+
+.contenedor-subtitulo {
+    width: 96%;
+    height: 70px;
+    background-color: #afaeae;
+    margin-left: 35px;
+    margin-top: 20px;
+}
+
+.subtitulo-section2 {
+    padding-top : 20px;
+    padding-left: 780px;
+    font-weight: lighter;
+}
+
+/*Contenido section 2*/
+
+.contenedor-imagen1{
+    width: 350px;
+    height: 450px;
+    margin-left: 35px;
+    margin-top: 50px;
+}
+
+.contenedor-imagen2 {
+    width: 350px;
+    height: 450px;
+    margin-left: 510px;
+    margin-top: -450px;
+}
+
+.contenedor-imagen3 {
+    width: 350px;
+    height: 450px;
+    margin-left: 990px;
+    margin-top: -450px;
+}
+
+.contenedor-imagen4 {
+    width: 350px;
+    height: 450px;
+    margin-left: 1470px;
+    margin-top: -450px;
+}
+
+.imagen1, .imagen2, .imagen3, .imagen4 {
+    width: 350px;
+    height: 380px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.texto-contenedor1, .texto-contenedor2, .texto-contenedor3, .texto-contenedor4 {
+    margin-top: 15px;
+}
+
+.texto-precio1, .texto-precio2, .texto-precio3, .texto-precio4 {
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+/*SECTION3*/
